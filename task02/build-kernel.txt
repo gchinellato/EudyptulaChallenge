@@ -1,0 +1,16 @@
+git clone git://git.kernel.org/pub/scm/linux/kernel/git/tomba/linux.git
+sudo apt-get install libncurses5-dev gcc make git exuberant-ctags bc libssl-dev
+
+Kernel config
+cp /boot/config-`uname -r`* .config
+or
+make x86_64_defconfig
+
+CONFIG_LOCALVERSION_AUTO=y
+make oldconfig
+make localmodconfig
+
+make -j4
+sudo make modules_install
+sudo make install
+sudo update-grub2
