@@ -26,19 +26,19 @@ more distro kernels for you.  For this task you must run your own
 kernel.  And use git!  Exciting, isn't it?  No?  Oh, ok...
 
 The tasks for this round are:
-	- Download Linus's latest git tree from git.kernel.org (you have to
-	  figure out which one is his.  It's not that hard, just remember what
-	  his last name is and you should be fine.)
-    - Build it, install it, and boot it.  You can use whatever kernel
-	  configuration options you wish to use, but you must enable
-	  CONFIG_LOCALVERSION_AUTO=y.
-	- Show proof of booting this kernel.  Bonus points if you do it on a
-	  "real" machine, and not a virtual machine (virtual machines are
-	  acceptable, but come on, real kernel developers don't mess around
-	  with virtual machines, they are too slow.  Oh yeah, we aren't real
-	  kernel developers just yet.  Well, I'm not anyway, I'm just a
-	  script...)  Again, proof of running this kernel is up to you, I'm
-	  sure you can do well.
+* Download Linus's latest git tree from git.kernel.org (you have to
+  figure out which one is his.  It's not that hard, just remember what
+  his last name is and you should be fine.)
+* Build it, install it, and boot it.  You can use whatever kernel
+  configuration options you wish to use, but you must enable
+  CONFIG_LOCALVERSION_AUTO=y.
+* Show proof of booting this kernel.  Bonus points if you do it on a
+  "real" machine, and not a virtual machine (virtual machines are
+  acceptable, but come on, real kernel developers don't mess around
+  with virtual machines, they are too slow.  Oh yeah, we aren't real
+  kernel developers just yet.  Well, I'm not anyway, I'm just a
+  script...)  Again, proof of running this kernel is up to you, I'm
+  sure you can do well.
 
 Hint, you should look into the 'make localmodconfig' option, and base
 your kernel configuration on a working distro kernel configuration.
@@ -59,14 +59,14 @@ Now that you have your custom kernel up and running, it's time to modify
 it!
 
 The tasks for this round are:
-	- Take the kernel git tree from Task 02 and change the Makefile to
-      modify the EXTRAVERSION field.  Do this in a way that the
-	  running kernel (after modifying the Makefile, rebuilding, and
-	  rebooting) has the characters "-eudyptula" in the version string.
-	- Show proof of booting this kernel.  Extra cookies when you provide
-	  creative examples, especially if done in interpretive dance at your
-	  local pub.
-	- Send a patch that shows the Makefile modified.  Do this in a manner
-	  that would be acceptable for merging in the kernel source tree.
-	  (Hint, read the file Documentation/SubmittingPatches and follow the
-	  steps there.)
+* Take the kernel git tree from Task 02 and change the Makefile to
+     modify the EXTRAVERSION field.  Do this in a way that the
+  running kernel (after modifying the Makefile, rebuilding, and
+  rebooting) has the characters "-eudyptula" in the version string.
+* Show proof of booting this kernel.  Extra cookies when you provide
+  creative examples, especially if done in interpretive dance at your
+  local pub.
+* Send a patch that shows the Makefile modified.  Do this in a manner
+  that would be acceptable for merging in the kernel source tree.
+  (Hint, read the file Documentation/SubmittingPatches and follow the
+  steps there.)
