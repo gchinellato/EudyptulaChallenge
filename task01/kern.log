@@ -1,0 +1,12 @@
+May 18 10:51:58 gchinellato-ubuntu kernel: [   27.163265] 00:00:00.000533 main     Executable: /opt/VBoxGuestAdditions-5.1.14/sbin/VBoxService
+May 18 10:51:58 gchinellato-ubuntu kernel: [   27.163265] 00:00:00.000535 main     Process ID: 1569
+May 18 10:51:58 gchinellato-ubuntu kernel: [   27.163265] 00:00:00.000536 main     Package type: LINUX_64BITS_GENERIC
+May 18 10:51:58 gchinellato-ubuntu kernel: [   27.164916] 00:00:00.002166 main     5.1.14 r112924 started. Verbose level = 0
+May 18 10:51:58 gchinellato-ubuntu kernel: [   27.179455] 00:00:00.016704 automount vbsvcAutoMountWorker: Shared folder 'windows-shared' was mounted to '/media/sf_windows-shared'
+May 18 10:52:19 gchinellato-ubuntu kernel: [   48.237190] audit_printk_skb: 33 callbacks suppressed
+May 18 10:52:19 gchinellato-ubuntu kernel: [   48.237193] audit: type=1400 audit(1495115539.626:37): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=2501 comm="apparmor_parser"
+May 18 10:52:19 gchinellato-ubuntu kernel: [   48.237199] audit: type=1400 audit(1495115539.626:38): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=2501 comm="apparmor_parser"
+May 18 13:21:37 gchinellato-ubuntu kernel: [ 9004.150205] Hello World!
+May 18 13:59:17 gchinellato-ubuntu kernel: [11264.005224] Unloading task01 module
+May 18 14:01:22 gchinellato-ubuntu kernel: [11389.465099] Hello World!
+May 18 14:01:25 gchinellato-ubuntu kernel: [11391.693463] Unloading task01 module
