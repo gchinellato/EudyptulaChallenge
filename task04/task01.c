@@ -4,13 +4,13 @@
 
 static int task01_init(void)
 {
-	printk(KERN_DEBUG "Hello World!\n");
+	pr_debug("Hello World!\n");
 	return 0;
 }
 
 static void task01_exit(void) 
 {
-	printk(KERN_DEBUG "Unloading task01 module\n");
+	printk("Unloading task01 module\n");
 }
 
 module_init(task01_init);
